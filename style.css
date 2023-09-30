@@ -1,0 +1,203 @@
+::selection{
+	color: white;
+	background-color: greenyellow;
+}
+
+body{
+	margin: 0;
+	background-color: #dedede;
+	font-family: Verdana, sans-serif; margin:0
+}
+
+i{
+	font-size: 35px;
+}
+
+.txt{
+	font-size: 6.7vw;
+}
+
+* {box-sizing: border-box}
+
+/*Heading*/
+
+.logo{
+	padding: 15px 25px;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	background-color: #001F3F;
+	text-shadow: 1px 1px 1px black;
+	text-align: center;
+}
+
+.icon{
+	color: #ffffff;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	font-size: 35px;
+	cursor: pointer;
+}
+
+.icon:hover{
+	color: dodgerblue;
+	text-shadow: 5px 5px 5px #111;
+}
+
+/*Heading*/
+
+/*Tables*/
+.wmtable{
+	width: 95%;
+	text-align: left;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.wmtable, th, td{
+	border-collapse: collapse;
+	border: 1px solid black;
+	background-color: white;
+}
+
+.wmtable th{
+	padding: 10px 5px;
+}
+
+.wmtable td{
+	padding: 15px 5px;
+}
+
+.words{
+	width: 100%;
+}
+
+.definition{
+	font-size: 25px;
+}
+
+.arabic{
+	font-size: 50px;
+	text-align: center;
+}
+/*Tables*/
+
+p{
+	margin-bottom: 10px;
+	text-align: left;
+	margin: auto;
+	width: 95%;
+	background-color: rgba(21, 157, 215, 0.47);
+	border: 0.2px solid rgba(21, 157, 215, 0.9);
+	border-radius: 25px;
+	padding: 10px 20px;
+}
+
+h1{
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	color: white;
+	background-color: #001F3F;
+	padding: 20px;
+	border-left: 5px solid darkblue;
+	border-right: 5px solid darkblue;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.simpimg{
+	margin: auto;
+	width: 90%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+/*Footer*/
+.footer{
+	background-color: #011222;
+	color: white;
+	font-size: 20px;
+	padding: 25px;
+	text-align: center;
+	clear: both;
+}
+
+/*Footer*/
+
+.open{
+	display: none;
+}
+
+.close{
+	display: block;
+}
+
+.rednot{
+	padding: 15px; background-color: red; color: white; text-align: center;
+}
+
+@media screen AND (max-width:650px) {
+	th{
+		width: 40%;
+	}
+
+	.logo{
+		font-size: 28px;
+	}
+
+	.open{
+		display: block;
+	}
+	
+	.close{
+		display: none;
+	}
+}
+
+@media screen AND (max-width:613px){
+	h1{
+		font-size: 25px;
+	}
+}
+
+@media screen AND (max-width:550px) {
+	.logo{
+		font-size: 6vw;
+		text-align: right;
+	}
+	.icon{
+		font-size: 7vw;
+	}
+	.txt{
+		font-size: 15vw;
+	}
+}
+
+@media screen AND (max-width:350px){
+	h1{
+		width: 80%;
+	}
+	.definition{
+		font-size: 15px;
+	}
+	th{
+		width: 20%;
+	}
+	i{
+		font-size: 25px;
+	}
+
+	.rednot{
+		font-size: 10px;
+	}
+	.arabic{
+		font-size: 32px;
+	}
+	.txt{
+		font-size: 15vw;
+	}
+}
